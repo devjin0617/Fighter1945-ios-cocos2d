@@ -1103,6 +1103,8 @@
 /* Begin PBXProject section */
 		2C6EF0486C7D3419B5FE7CA1 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+			};
 			buildConfigurationList = 2C6EF9275E7E963E54BC1472 /* Build configuration list for PBXProject "Fighter1945" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -1362,12 +1364,13 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Fighter1945/Prefix.pch;
 				HEADER_SEARCH_PATHS = "\"Fighter1945/libs/kazmath/include\"";
 				INFOPLIST_FILE = Fighter1945/Resources/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				OTHER_LDFLAGS = (
 					"-lz",
 					"-ObjC",
@@ -1383,13 +1386,14 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Fighter1945/Prefix.pch;
 				HEADER_SEARCH_PATHS = "\"Fighter1945/libs/kazmath/include\"";
 				INFOPLIST_FILE = Fighter1945/Resources/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				OTHER_LDFLAGS = (
 					"-lz",
 					"-ObjC",

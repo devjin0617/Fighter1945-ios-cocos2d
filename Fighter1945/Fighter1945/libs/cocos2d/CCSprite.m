@@ -43,7 +43,7 @@
 #import "Support/OpenGL_Internal.h"
 
 // external
-#import "kazmath/GL/matrix.h"
+#import "matrix.h"
 
 #pragma mark -
 #pragma mark CCSprite

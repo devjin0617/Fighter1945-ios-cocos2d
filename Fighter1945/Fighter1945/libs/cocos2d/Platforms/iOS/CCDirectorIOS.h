@@ -30,7 +30,7 @@
 #ifdef __CC_PLATFORM_IOS
 
 #import "../../CCDirector.h"
-#import "kazmath/mat4.h"
+#import "mat4.h"
 
 @class CCTouchDispatcher;
 
